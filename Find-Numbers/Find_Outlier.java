@@ -1,6 +1,7 @@
 /*
  * Of three numbers find the number furthest away from the other two.
 */
+
 //import java.util.Scanner;
 //import java.lang.Math;
 //import static java.lang.Math.abs; 
