@@ -1,11 +1,13 @@
 /*
  * Given a number of coin tosses and how likely a coin is to land on heads,
- * what's the probability that the majority of coin tosses will be heads?
+ * what is the probability that the majority of coin tosses will be heads?
  * The goal is to read in a number of fair coin tosses, and the probability that a given coin toss will produce heads, 
  * and output the probability that the majority of coin tosses will be heads, rounded to the nearest percent.
- * Based on Monte Carlo method
+ * Based on Monte Carlo method.
 */
+
 import java.util.Scanner;
+
 public class Biased_Coin{
 	public static void main(String args[]){
 		Scanner input = new Scanner(System.in);
