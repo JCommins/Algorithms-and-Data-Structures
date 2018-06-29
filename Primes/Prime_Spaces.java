@@ -1,9 +1,11 @@
 
-/*Spacing between primes Problem Statement
-
+/* 
+Spacing between primes Problem Statement: 
 The goal is to read in a number N and output the distance between the prime number that precedes it, and the prime that follows it. 
 If the number itself happens to be prime, then output the distance to the subsequent prime. 
-For example, if N is 7, then output 4, because the next prime is 11, which is 4 away.*/
+For example, if N is 7, then output 4, because the next prime is 11, which is 4 away.
+*/
+
 import java.util.Scanner;
 
 public class Prime_Spaces {
