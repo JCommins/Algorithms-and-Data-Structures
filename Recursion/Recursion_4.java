@@ -1,5 +1,5 @@
 
-public class Recursion_3{	
+public class Recursion{	
 	public static void main (String [] args){		
 		System.out.println(mystery("Start"));	
 	}
@@ -14,12 +14,14 @@ public class Recursion_3{
 	}	
 }
 
-/* Output: 
- * Running~Q
- * Running~Q
- * Running~Q
- * Running~Q
- * Running~Q
- * Running~Q
- * CompleteOKOKOKOKOKOK
+/* 	Output: 
+ *
+ * 	Running~Q
+ * 	Running~Q
+ * 	Running~Q
+ * 	Running~Q
+ * 	Running~Q
+ * 	Running~Q
+ * 	CompleteOKOKOKOKOKOK
+ *
  */
