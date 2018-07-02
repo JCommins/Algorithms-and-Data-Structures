@@ -12,14 +12,10 @@ public class Recursion_1{
        if (number % 7 == 3){
     	    return 5; 
 	   }
-       
-      
        System.out.println("hello");
        System.out.println(number);
        return method((number % 5) + 3) - 2;
-       //brackets executed only until base case satisfied => only then can method be returned 
-       //=> the returned int represents the 'brackets' 
-       //and works back up each equation but this time incorporating the full return statement (i.e => (bracket return) -2;) 
+       
    }
 }
 
@@ -33,4 +29,8 @@ public class Recursion_1{
    hello
    5
    -1
+   
+   Notes: Brackets executed only until base case satisfied => only then can method be returned 
+          The returned int represents the (inside of) 'brackets'and works back up each equation 
+	  but this time incorporating the full return statement (i.e => (bracket return) -2;) 
 */
