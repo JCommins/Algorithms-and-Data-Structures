@@ -40,7 +40,7 @@ public class Prime_Spaces {
 	       if(arr[i] > n){	
 	          higher = arr[i]; 
 		  lower = arr[i-1]; 
-		   i = primeCount; 
+		  i = primeCount; 
 	       }
 	    }
 		
