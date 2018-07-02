@@ -11,11 +11,10 @@ public class Recursion_1{
    public static int method(int number){
        if (number % 7 == 3){
     	    return 5; 
-	   }
+       }
        System.out.println("hello");
        System.out.println(number);
-       return method((number % 5) + 3) - 2;
-       
+       return method((number % 5) + 3) - 2;  
    }
 }
 
